@@ -40,3 +40,9 @@ say, key = -1
       key : -1
     output:
       cipher-text : gdkkn
+
+
+#rotate\ charaters\ by\ N\ positions\ from\ it's\ alphabetic\ position
+#rotN\ algorithm
+#caesar\ cipher
+#string\ rotation\ python
