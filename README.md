@@ -5,9 +5,11 @@ There are many online tools which have implemented rot N (rotate by N characters
 
 It works like below.
 say, key = 1
+
   mappings:
     | abcdefghijklmnopqrstuvwxyz is interpreted as below for each character. i.e, a is interpreted as z, b = a, c = b, d = c so on and z = a
     | zabcdefghijklmnopqrstuvwxy
+
   example:
     input:
       plain-text : hello
@@ -18,6 +20,7 @@ say, key = 1
 similarly, 
 
 say, key = 2
+
   mappings:
     | abcdefghijklmnopqrstuvwxyz is interpreted as below for each character.
     | yzabcdefghijklmnopqrstuvwx
