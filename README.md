@@ -1,4 +1,7 @@
 # caesar-cipher
+
+#View it in RAW format
+
 To encrypt or decrypt caesar cipher. In otherwords, rot N algorithm implementation in python3
 
 There are many online tools which have implemented rot N (rotate by N characters) algorithm.
