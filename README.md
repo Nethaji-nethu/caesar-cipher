@@ -1,13 +1,20 @@
 # caesar-cipher
-To encrypt or decrypt caesar cipher. on in otherwords, rot N algorithm implementation in python3
+To encrypt or decrypt caesar cipher. In otherwords, rot N algorithm implementation in python3
 
-There are many online tools which have implemented rot N (rotate by N characters) algorithm (in other words caesar-cipher).
+There are many online tools which have implemented rot N (rotate by N characters) algorithm.
 
 It works like below.
-key = 1
+say, key = 1
   mappings:
     | abcdefghijklmnopqrstuvwxyz is interpreted as below for each character. i.e, a is interpreted as z, b = a, c = b, d = c so on and z = a
     | zabcdefghijklmnopqrstuvwxy
+  example:
+    input:
+      plain-text : hello
+      key : 1
+    output:
+      cipher-text : ifmmp
+      
 similarly, 
 
 say, key = 2
@@ -21,3 +28,9 @@ say, key = -1
   mappings:
     | abcdefghijklmnopqrstuvwxyz is interpreted as below for each character.
     | bcdefghijklmnopqrstuvwxyza
+    example:
+    input:
+      plain-text : hello
+      key : -1
+    output:
+      cipher-text : gdkkn
